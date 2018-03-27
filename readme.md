@@ -1,12 +1,12 @@
-#Logs Analysis Project
+# Logs Analysis Project
 Python script that connects to a PostgreSQL DB and print the queries declared.
 
-##Requeriments
+## Requeriments
 *Python3
 *PostgreSQL
 *Vagrant
 
-##How to run
+## How to run
 1. Donwload the DB data [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 2. Go into the vagrant directory and use the command
 ```
