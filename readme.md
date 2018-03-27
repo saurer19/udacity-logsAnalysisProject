@@ -20,7 +20,7 @@ psql -d news
 ```
 create view daypercent as select date(time) date, (count(*)filter(where status!='200 OK')*100.0/count(*)) as percentage  from log group by date(time) order by percentage desc;
 ```
-5. Run the python scritp
+5. Run the python script
 ```
 python run.py
 ```
