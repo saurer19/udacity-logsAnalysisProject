@@ -1,7 +1,7 @@
 # Logs Analysis Project
-This project is a internal reporting tool that use the information from a PostgreSQL database. The database News contains newspapper articles, authors and the web server log of the fictional website.
+This project is a internal reporting tool that uses the information from a PostgreSQL database. The database News contains newspapper articles, authors and the web server log of the fictional website.
 
-The python script connect to the database using psycopg2 and execute SQL quieres to print out the answers the following questions:
+The python script connects to the database using psycopg2 and execute SQL queries to print out the answers the following questions:
 1. What are the most popular three articles of all time? 
 2. Who are the most popular article authors of all time? 
 3. On which days did more than 1% of requests lead to errors? 
